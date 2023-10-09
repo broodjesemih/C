@@ -2,14 +2,14 @@
 #include <time.h>
 #include <SDL2/SDL.h>
 
-#define AANTAL_KOEIEN 11
+#define AANTAL_KOEIEN 		11
+		
+#define SCREEN_WIDTH  		1024
+#define SCREEN_HEIGHT 		576
 
-#define SCREEN_WIDTH  1024
-#define SCREEN_HEIGHT 576
-
-#define LIJF	16
-#define KOP		8
-#define STAART	3
+#define LIJF				16
+#define KOP					8
+#define STAART				3
 #define LINKER_VOOR_POOT    3
 #define RECHTER_VOOR_POOT   3
 #define LINKER_ACHTER_POOT  3
